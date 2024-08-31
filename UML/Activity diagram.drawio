@@ -1,0 +1,51 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.7">
+  <diagram name="Page-1" id="4rGjodRsTPPC2vz77WWb">
+    <mxGraphModel dx="1221" dy="759" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="UDhdAV5JtU_Sa8sB4PR5-5" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="318" y="435" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UDhdAV5JtU_Sa8sB4PR5-6" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="UDhdAV5JtU_Sa8sB4PR5-5" parent="1" target="UDhdAV5JtU_Sa8sB4PR5-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="333" y="515" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UDhdAV5JtU_Sa8sB4PR5-7" value="USER" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="308" y="405" width="50" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="UDhdAV5JtU_Sa8sB4PR5-8" value="Input nama, email, subject, message" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="273" y="505" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UDhdAV5JtU_Sa8sB4PR5-9" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="UDhdAV5JtU_Sa8sB4PR5-8" parent="1" target="UDhdAV5JtU_Sa8sB4PR5-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="338" y="635" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UDhdAV5JtU_Sa8sB4PR5-10" value="Send data" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="273" y="585" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UDhdAV5JtU_Sa8sB4PR5-11" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="UDhdAV5JtU_Sa8sB4PR5-10" parent="1" target="UDhdAV5JtU_Sa8sB4PR5-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="338" y="755" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UDhdAV5JtU_Sa8sB4PR5-12" value="SERVER" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="488" y="405" width="60" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="UDhdAV5JtU_Sa8sB4PR5-14" value="Send data ke email server" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="458" y="585" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UDhdAV5JtU_Sa8sB4PR5-15" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="UDhdAV5JtU_Sa8sB4PR5-14" parent="1" target="UDhdAV5JtU_Sa8sB4PR5-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="518" y="685" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UDhdAV5JtU_Sa8sB4PR5-16" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="503" y="665" width="30" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

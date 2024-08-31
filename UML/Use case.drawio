@@ -1,0 +1,40 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.7">
+  <diagram name="Page-1" id="4rGjodRsTPPC2vz77WWb">
+    <mxGraphModel dx="1221" dy="759" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="OXy7An4cuTSHC5Mjl8pR-1" value="USER" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="85" y="535" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OXy7An4cuTSHC5Mjl8pR-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="165" y="395" width="600" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="fIfisMPaBDod_NENlYvS-2" value="USE CASE SEND MESSAGE TO EMAIL SERVER" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="405" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fIfisMPaBDod_NENlYvS-3" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="OXy7An4cuTSHC5Mjl8pR-1" target="fIfisMPaBDod_NENlYvS-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="135" y="755" as="sourcePoint" />
+            <mxPoint x="185" y="705" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fIfisMPaBDod_NENlYvS-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fIfisMPaBDod_NENlYvS-4" target="fIfisMPaBDod_NENlYvS-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fIfisMPaBDod_NENlYvS-4" value="Input nama, email, subject, message" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="215" y="525" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fIfisMPaBDod_NENlYvS-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fIfisMPaBDod_NENlYvS-5" target="fIfisMPaBDod_NENlYvS-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fIfisMPaBDod_NENlYvS-5" value="Send data ke server" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="405" y="525" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fIfisMPaBDod_NENlYvS-7" value="Email server" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="595" y="525" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
